@@ -8,7 +8,7 @@ async function main() {
         const familiaLars = results.filter(function(item){
             // POR PADRÃO PRECISA RETORNA UM BOOLEANO
             // PARA INFORMAR SE DEVE MANTER OU REMOVER DA LISTA
-
+            // TRAZ TOODO MUNDO QUE É DA FAMILIA
             const result = item.name.toLowerCase().indexOf('lars') !== -1
             return result;
         })
